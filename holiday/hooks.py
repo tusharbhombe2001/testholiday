@@ -24,6 +24,12 @@ doc_events = {
 }
 
 
+
+fixtures = [
+            {"dt":"Custom Field", "filters": [["name", "in",("Opportunity-custom_item_list_2","Opportunity-custom_section_break_l9vsj","Opportunity-custom_final_destination","Opportunity-custom_column_break_oahu0","Opportunity-custom_preferred_destination_","Opportunity-custom_destinations","Opportunity-custom_item_list_1","Opportunity-custom_item_list","Opportunity-custom_address_country","Opportunity-custom_destination_country","Opportunity-custom_departure_counrty","Opportunity-custom_pax_details","Opportunity-custom_section_break_uqsgp","Opportunity-custom_column_break_ipvko","Opportunity-custom_address_state","Opportunity-custom_address_city","Opportunity-custom_traveller_details","Opportunity-custom_city_wise_travelling_details","Opportunity-custom_end_date","Opportunity-custom_start_date","Opportunity-custom_column_break_la1gn","Opportunity-custom_night_countsv","Opportunity-custom_destination_city","Opportunity-custom_column_break_ic7ib","Opportunity-custom_total_travel_days","Opportunity-custom_departure_city","Opportunity-custom_travel_details","Opportunity-custom_preferred_mode_of_travel","Opportunity-custom_preferred_destination_city","Opportunity-custom_column_break_fvdpn","Opportunity-custom_number_of_travellers_adults__c","Opportunity-custom_preferred_departure_city","Opportunity-custom_column_break_dm3vs","Opportunity-custom_preferred_hotel_type","Opportunity-custom_travel_start_date","Opportunity-custom_preferred_travel_details_","Quotation-custom_item_list","Quotation-custom_traveller_details_section","Quotation-custom_traveller_details_tab","Quotation-custom_end_date","Quotation-custom_start_date","Quotation-custom_column_break_5v9gu","Quotation-custom_night_counts","Quotation-custom_destination_country","Quotation-custom_destination_city","Quotation-custom_column_break_p9uob","Quotation-custom_total_travel_days","Quotation-custom_departure_counrty_","Quotation-custom_departure_city","Quotation-custom_section_break_ce3fg","Quotation-custom_destination"),]]},
+            {"dt":"Property Setter", "filters": [["name", "in",("Opportunity-status-options"),]]}
+]
+
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
