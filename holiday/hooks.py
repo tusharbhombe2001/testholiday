@@ -8,6 +8,22 @@ app_license = "mit"
 # Apps
 # ------------------
 
+
+doctype_js = {
+    "Quotation": [
+        "public/js/button.js",
+        "public/js/quotation_custom.js"
+    ],
+    "Opportunity": "public/js/custom.js"
+}
+
+doc_events = {
+    "Quotation": {
+        "on_submit": "holiday.custom_methods.quotation_custom.update_opportunity_with_quotation"
+    }
+}
+
+
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
